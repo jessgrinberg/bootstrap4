@@ -63,3 +63,23 @@ img {
   padding: 8rem 0;
   overflow: hidden;
 }
+
+.feature-content img {
+  margin-bottom: -8rem;
+}
+
+.feature-dark {
+  background: #262f36;
+  color: #fff;
+}
+
+.feature-dark h2 {
+  color: #fff;
+}
+
+@media screen and (min-width: 991px) {
+  .feature-content {
+    display: flex;
+    align-items: center;
+  }
+}
