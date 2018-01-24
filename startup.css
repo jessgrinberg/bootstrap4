@@ -77,6 +77,14 @@ img {
   color: #fff;
 }
 
+.feature-alt {
+  background: #f0f0f0;
+}
+
+#feature-four .feature-content {
+  padding: 0;
+}
+
 @media screen and (min-width: 991px) {
   .feature-content {
     display: flex;
